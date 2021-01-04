@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "variables.css";
+
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* screens */
+@import "screens/login.css";
+
+
+body {
+    font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 1000vh;
+}
+
