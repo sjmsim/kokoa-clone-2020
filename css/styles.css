@@ -5,13 +5,26 @@
 /* components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+
+
 
 /* screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 
 body {
     font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    height: 1000vh;
+    height: 200vh;
+    color: #2e363e;
+    margin-top: 110px;
 }
 
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+   
+}

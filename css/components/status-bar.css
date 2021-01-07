@@ -2,9 +2,11 @@
   position: fixed;
   top: 0;
   width: 100%;
+  box-sizing: border-box;
+  padding: 5px 5px;
   display: flex;
   justify-content: center;
-  padding: 5px 3px;
+  background-color: white;
 }
 
 .status-bar__column {
@@ -12,7 +14,7 @@
 }
 
 .status-bar__column:first-child span {
-  margin-right: 5px;
+  padding-right: 5px;
 }
 
 .status-bar__column:nth-child(2) {
