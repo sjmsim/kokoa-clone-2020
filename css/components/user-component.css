@@ -15,7 +15,8 @@
 }
 
 .user-component__text {
-  margin: 0px 20px;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .user-component__title {
@@ -61,4 +62,17 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__subtitle__alert {
+  color: tomato;
+  font-weight: 600;
+  font-size: 17px;
+  border: 2px tomato solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  margin-top: 30px;
 }

@@ -17,7 +17,11 @@
   font-weight: 600;
 }
 
-.screen-header__icons span {
+.screen-header__icons {
+  position: relative;
+}
+
+.screen-header__icons span :not(screen-header__notification) {
   margin-left: 25px;
 }
 
@@ -26,12 +30,9 @@
   width: 9px;
   height: 9px;
   border-radius: 4.5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: white;
   font-weight: 600;
-  position: relative;
-  left: 75px;
-  bottom: 25px;
+  position: absolute;
+  right: -8px;
+  top: -8px;
 }
