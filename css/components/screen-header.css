@@ -9,6 +9,7 @@
   padding: var(--horizontal-space);
   margin-top: 26.5px;
   background-color: white;
+  z-index: 10;
 }
 
 .screen-header__title {
