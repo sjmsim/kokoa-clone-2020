@@ -9,6 +9,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 
 /* screens */
@@ -16,17 +17,31 @@
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 
-body {
+
+body{
     font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     height: 200vh;
     color: #2e363e;
-    margin-top: 110px;
 }
+
+body:not(.body__settings) {
+       margin-top: 110px;
+}
+
+/* body .body__settings {
+    margin: 124.5;
+} */
+
 
 
 .main-screen {
     padding: 0px var(--horizontal-space);
-   
+    margin-top: 125px;
 }
+
+
+
